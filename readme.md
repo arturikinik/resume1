@@ -1,2 +1,2 @@
 # my resume
-firs try to real project
+first try to real project
