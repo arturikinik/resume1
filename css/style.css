@@ -5,6 +5,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+    background-color: #5279b6;
 }
 
 .columns {
@@ -44,4 +45,24 @@ h1:after {
 p {
     margin: 0;
     padding: 0 0 10px 0;
+}
+.item {
+    margin-left: 350px;
+}
+
+.photo {
+width: 220px;
+height: 220px;
+margin: 0 auto;
+overflow: hidden;
+border-radius: 50%;
+float: right;
+}
+.person-photo {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+.FIO {
+    font-weight: 1000;
 }
