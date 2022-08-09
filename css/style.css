@@ -108,3 +108,12 @@ p {
     margin-right: 10px;
     color: #3a5cfd; 
 }
+.education-text {
+    display: grid;
+    grid-template-columns: 44px auto;
+    column-gap: 4px;
+}
+.my_skills {
+    display: block;
+    
+}
