@@ -16,7 +16,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 130px;
-    margin: 180px 200px 200px 115px;
+    margin: 70px 200px 200px 115px;
 }
 
 .lastName {
