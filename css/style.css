@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-    margin-top: 154px;
+    margin-top: 114px;
     position: relative;
 }
 
@@ -59,25 +59,30 @@ p {
     overflow: hidden;
     border-radius: 50%;
 }
+
 .person-photo {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .FIO {
     font-weight: 1000;
     line-height: 27px;
 }
+
 .prof {
     text-decoration-line: underline;
-    text-decoration-color:  #fddb3a;
+    text-decoration-color: #fddb3a;
     text-decoration-style: solid;
-    text-shadow: #52575d 2px 0 3px; 
+    text-shadow: #52575d 2px 0 3px;
 }
-
-.mail{
-   margin: 20px 0px 20px 0px;
- }
+.education-h1 {
+    margin-top: 100px;
+}
+.mail {
+    margin: 20px 0px 20px 0px;
+}
 
 .mail:before {
     font-family: 'icomoon';
@@ -86,34 +91,68 @@ p {
     margin-right: 10px;
 }
 
-.phone{
+.phone {
     margin-bottom: 20px;
- }
+}
 
 .phone:before {
     font-family: 'icomoon';
     content: "\f095";
-    margin-right: 10px; 
+    margin-right: 10px;
     color: #3a5cfd;
 }
 
-.Github{
+.Github {
     margin-bottom: 20px;
- }
+}
 
 
 .Github::before {
     font-family: 'icomoon';
     content: "\f09b";
     margin-right: 10px;
-    color: #3a5cfd; 
+    color: #3a5cfd;
 }
+
 .education-text {
     display: grid;
     grid-template-columns: 44px auto;
     column-gap: 4px;
 }
-.my_skills {
-    display: block;
-    
+.Html_icon::before {
+    font-family: 'icomoon2';
+    margin-right: 10px;
+    content: "\e904";
+    color: #e34f26;
+}
+.Html_icon{
+    font-size: 140%;
+}
+.Css_icon::before {
+    font-family: 'icomoon2';
+    margin-right: 10px;
+    content: "\e902";
+    color: #1572b6;
+}
+.Css_icon{
+    font-size: 140%;
+}
+
+.JS_icon::before {
+    font-family: 'icomoon2';
+    margin-right: 10px;
+    content: "\e900";
+    color: #f7df1e;
+}
+.JS_icon{
+    font-size: 140%;
+}
+.Git_icon::before {
+    font-family: 'icomoon2';
+    margin-right: 10px;
+    content: "\e903";
+    color: #f05032;
+}
+.Git_icon{
+    font-size: 140%;
 }

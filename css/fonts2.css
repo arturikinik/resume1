@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'icomoon2';
+  src:  url('../fonts/icomoon2.eot?9rkgvg');
+  src:  url('../fonts/icomoon2.eot?9rkgvg#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon2.ttf?9rkgvg') format('truetype'),
+    url('../fonts/icomoon2.woff?9rkgvg') format('woff'),
+    url('../fonts/icomoon2.svg?9rkgvg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon2' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angular:before {
+  content: "\e901";
+  color: #dd0031;
+}
+.icon-css3:before {
+  content: "\e902";
+  color: #1572b6;
+}
+.icon-git:before {
+  content: "\e903";
+  color: #f05032;
+}
+.icon-html5:before {
+  content: "\e904";
+  color: #e34f26;
+}
+.icon-javascript:before {
+  content: "\e900";
+  color: #f7df1e;
+}
+.icon-node-dot-js:before {
+  content: "\e905";
+  color: #393;
+}
+.icon-php:before {
+  content: "\e906";
+  color: #777bb4;
+}
+.icon-react:before {
+  content: "\e907";
+  color: #61dafb;
+}
+.icon-github:before {
+  content: "\f09b";
+}
